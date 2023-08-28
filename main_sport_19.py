@@ -60,6 +60,8 @@ try:
     
     sql = "INSERT INTO league_game_finder("
     for field in result['headers']:
+        if field == 'TO':
+            field = 'TOV'
         sql += field + ","
     sql = sql[:-1]
     sql += ') VALUES ('
