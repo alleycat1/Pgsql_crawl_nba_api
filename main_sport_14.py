@@ -367,12 +367,12 @@ try:
     tblNames['CareerTotalsCollegeSeason'] = 'career_totals_college_season'
     tblNames['CareerTotalsPostSeason'] = 'career_totals_post_season'
     tblNames['CareerTotalsRegularSeason'] = 'career_totals_regular_season'
-    tblNames['SeasonRankingsPostSeason'] = 'season_rankings_post_season'
-    tblNames['SeasonRankingsRegularSeason'] = 'season_rankings_regular_season'
-    tblNames['SeasonTotalsAllStarSeason'] = 'season_totals_all_star_season'
-    tblNames['SeasonTotalsCollegeSeason'] = 'season_totals_college_season'
-    tblNames['SeasonTotalsPostSeason'] = 'season_totals_post_season'
-    tblNames['SeasonTotalsRegularSeason'] = 'season_totals_regular_season'
+    #tblNames['SeasonRankingsPostSeason'] = 'season_rankings_post_season'
+    #tblNames['SeasonRankingsRegularSeason'] = 'season_rankings_regular_season'
+    #tblNames['SeasonTotalsAllStarSeason'] = 'season_totals_all_star_season'
+    #tblNames['SeasonTotalsCollegeSeason'] = 'season_totals_college_season'
+    #tblNames['SeasonTotalsPostSeason'] = 'season_totals_post_season'
+    #tblNames['SeasonTotalsRegularSeason'] = 'season_totals_regular_season'
 
     cursor.execute("DELETE FROM players")
 
