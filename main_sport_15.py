@@ -80,13 +80,13 @@ try:
     cursor.execute('DELETE FROM game_ids')
 
     for game in all_game_json.data_sets[0].data['data']:
+        game_id = game[4]
         if game_id not in game_ids:
             game_ids.append(game_id)
             insert_query = """
                 INSERT INTO game_ids (game_id, season_id, team_id, team_abbreviation, team_name, game_date)
                 VALUES (%s, %s, %s, %s, %s, %s)
             """
-            game_id = game[4]
             season_id = game[0]
             team_id = game[1]
             team_abbreviation = game[2]
